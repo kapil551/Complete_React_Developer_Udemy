@@ -15,3 +15,12 @@
     - What is a ```Higher Order Component```:
 
         - https://reactjs.org/docs/higher-order-components.html
+    
+3. Import ```SVG``` files in react:
+
+    - https://www.sanity.io/guides/import-svg-files-in-react
+
+    - https://create-react-app.dev/docs/adding-images-fonts-and-files/
+
+    - https://create-react-app.dev/docs/adding-images-fonts-and-files/#adding-svgs
+
