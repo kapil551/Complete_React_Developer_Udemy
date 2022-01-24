@@ -24,3 +24,10 @@
 
     - https://create-react-app.dev/docs/adding-images-fonts-and-files/#adding-svgs
 
+4. Forms in React:
+
+    - https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form
+
+    - ```Event.preventDefault()```:
+
+        - https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
