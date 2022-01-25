@@ -2,6 +2,9 @@ import React from "react";
 
 import "./signInStyle.scss";
 
+import FormInput from "../formInput/formInput";
+import CustomButton from "../customButton/customButton";
+
 const SignIn = () => {
   return (
     <div className="sign-in">
@@ -9,9 +12,9 @@ const SignIn = () => {
       <span>Sign in with your email and password</span>
 
       <form>
-        <input />
-        <input/>
-        <button type="submit"> Sign in </button>
+        <FormInput />
+        <FormInput />
+        <CustomButton type="submit"> Sign in </CustomButton>
       </form>
     </div>
   );
