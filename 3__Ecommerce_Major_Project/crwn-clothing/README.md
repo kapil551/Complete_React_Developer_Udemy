@@ -31,3 +31,23 @@
     - ```Event.preventDefault()```:
 
         - https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
+
+5. Setup Firebase as the backend:
+
+    - https://firebase.google.com/
+
+    - Adding a project to firebase:
+
+        - https://www.npmjs.com/package/firebase
+
+        - https://firebase.google.com/docs/web/modular-upgrade
+    
+    - ```Firebase Web docuementation```:
+
+        - https://firebase.google.com/docs/web/setup
+
+    - User Authentication:
+
+        - email and password authentication
+
+        - google sign in authentication
