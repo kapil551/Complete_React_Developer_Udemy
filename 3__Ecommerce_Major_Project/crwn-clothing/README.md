@@ -46,6 +46,10 @@
 
         - https://firebase.google.com/docs/web/setup
 
+        - ```Authenticate using Google Sign-In```:
+
+            - https://firebase.google.com/docs/auth/web/google-signin
+
     - User Authentication:
 
         - email and password authentication

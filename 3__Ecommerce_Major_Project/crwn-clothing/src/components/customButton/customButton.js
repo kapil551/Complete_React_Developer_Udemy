@@ -2,10 +2,15 @@ import React from "react";
 
 import "./customButton.scss";
 
-const CustomButton = ({ children }) => {
+const CustomButton = ({ children, ...otherProps }) => {
   // console.log(children);
   return (
-    <button className="custom-button"> {children} </button>
+    <button 
+        className="custom-button"
+        {...otherProps}
+    > 
+        {children} 
+    </button>
   );
 };
 

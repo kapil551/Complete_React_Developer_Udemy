@@ -5,6 +5,8 @@ import "./signInStyle.scss";
 import FormInput from "../formInput/formInput";
 import CustomButton from "../customButton/customButton";
 
+import { signInWithGoogle } from "../../firebase/firebase.utils";
+
 const SignIn = () => {
 
   const [email, setEmail] = useState("");
@@ -45,6 +47,7 @@ const SignIn = () => {
           value={email}
           label="Email"
           required
+          autoComplete="email"
         />
         <FormInput
           name="password"
@@ -53,8 +56,14 @@ const SignIn = () => {
           handleChange={handleChange}
           label="Password"
           required
+          autoComplete="password"
         />
-        <CustomButton type="submit"> Sign in </CustomButton>
+        <div className="buttons">
+            <CustomButton type="submit"> Sign in </CustomButton>
+            <CustomButton onClick={signInWithGoogle}>
+              Sign in with Google
+            </CustomButton>
+        </div>
       </form>
     </div>
   );
